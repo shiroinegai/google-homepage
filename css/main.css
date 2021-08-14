@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  line-height: 1;
+}
+
+a,
+input {
+  font-family: Arial, sans-serif;
+}
+
+input {
+  border: none;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+header a {
+  font-size: 13px;
+}
+
+header svg {
+  opacity: 0.55;
+}
+
+header a:nth-child(5) {
+  height: 24px;
+}
+
+header a:last-child {
+  background-color: #4285f4;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8.5px 12px;
+}
+
+header a:nth-child(2),
+footer a:nth-child(3) {
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
